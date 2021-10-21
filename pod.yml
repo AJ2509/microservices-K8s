@@ -1,0 +1,10 @@
+appVersion: v1
+kind: Pod
+metadata: 
+  name: pod1
+spec:
+  containers:
+   -name: nginx-abhishek
+    image: nginx
+    ports:
+    -containerPort: 80
