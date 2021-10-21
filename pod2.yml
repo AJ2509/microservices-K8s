@@ -9,7 +9,7 @@ spec:
     ports:
     - containerPort: 80
   containers:
-  - name: afakharany/watcher
+  - name: afakharany-watcher
     image: afakharany/watcher
     ports:
     - containerPort: 81
