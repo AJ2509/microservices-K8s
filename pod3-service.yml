@@ -1,14 +1,14 @@
-appVersion: v1
+apiVersion: v1
 kind: Service
 metadata:
-  name: hellowordl-service
+  name: helloworld-service
 spec:
   ports:
-  -port: 31001
-  nodePort: 31002
-  targetPort: nodejs-port
-  protocol: TCP
- selector:
-    app: helloworld
+  - port: 31001
+    nodePort: 31002
+    targetPort: nodejs-port
+    protocol: TCP
+  selector:
+     app: helloworld
   type: NodePort
   
